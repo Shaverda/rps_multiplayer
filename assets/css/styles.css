@@ -1,0 +1,31 @@
+.jumbotron {
+
+}
+.start_name_form {
+	display: flex;
+	justify-content: center;
+}
+
+
+.play_area{
+	margin: 30px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.game_area_boxes {
+	background-color: rgba(128,128,128,.7);
+	max-width: 25%;
+	min-height: 200px;
+	min-width: 200px;
+	text-align: center;
+}
+
+
+.chat_box{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	justify-content: stretch;
+}
