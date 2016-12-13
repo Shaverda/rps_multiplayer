@@ -117,7 +117,6 @@ function compare_answers(){
 	var answer_choices = ["rock", "paper", "scissors"];
 	var turnout = [["tie", "lose", "win"], ["win", "tie", "lose"], ["lose", "win", "tie"]];
 	var turnout_player_1 = turnout[player_1.choice][player_2.choice];
-	var turnout_player_2 = turnout[player_2.choice][player_1.choice];
 
 	$(".first_player_box").append("<h1 style'margin: auto auto'>" + answer_choices[player_1.choice]);
 	$(".second_player_box").append("<h1 style'margin: auto auto'>" + answer_choices[player_2.choice]);

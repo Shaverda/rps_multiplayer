@@ -1,5 +1,5 @@
 .jumbotron {
-
+	border-radius: 20px;
 }
 .start_name_form {
 	display: flex;
@@ -20,6 +20,7 @@
 	min-height: 200px;
 	min-width: 200px;
 	text-align: center;
+	border-radius: 20px;
 }
 
 
@@ -28,4 +29,8 @@
 	display: flex;
 	justify-content: center;
 	justify-content: stretch;
+}
+
+.results_box{
+	margin-top: 40%;
 }
