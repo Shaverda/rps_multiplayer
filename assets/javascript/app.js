@@ -17,7 +17,10 @@ connected_ref.on("value", function (snapshot){	//basically a bunch of code to lo
 	if (snapshot.val()) {
 		var con = connections_ref.push(true);
 		//when someone connects, add it to our list of connections
-		con.onDisconnect().remove();
+		con.onDisconnect().function {
+			if (player_number === 1){
+			}
+		}
 	}	
 });
 
